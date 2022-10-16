@@ -1,0 +1,137 @@
+a:hover {
+    color: red;
+    font-size: large;
+}
+
+
+a:active {
+    color: red;
+}
+
+body {
+    width: 90%;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+img:hover {
+    transform: scale(1.2);
+
+}
+
+img {
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+hr {
+    border-top: 1px dashed red;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    border: 2px solid red;
+    width: 80%;
+}
+
+.line {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #FF00FF;
+    padding: 20px;
+    margin: 20px;
+}
+.line-2 {
+    margin: 50px;
+    background-color: aquamarine;
+}
+
+.table_1 {
+    border-collapse: collapse;
+}
+
+.table_1 {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+  
+thead th:nth-child(1) {
+    width: 30%;
+}
+  
+thead th:nth-child(2) {
+    width: 20%;
+}
+  
+thead th:nth-child(3) {
+    width: 15%;
+}
+  
+thead th:nth-child(4) {
+    width: 35%;
+}
+  
+th, td {
+    padding: 20px;
+}
+
+
+ol {
+    padding: 20px;
+}
+  
+ul {
+    background: green;
+    padding: 20px;
+}
+  
+ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+  
+ul li {
+    background: white;
+    color: red;
+    margin: 5px;
+}
+
+input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.contact_bio {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.contact_img {
+    float: left;
+}
+
+.contact_p {
+    float: left;
+    font-size: 20px;
+}
+
+/* .contact_img {
+    max-width: 100%;
+    flex-basis: 40%
+}
+
+.container_p {
+    font-size: 20px;
+    padding-left: 20px;
+}  */

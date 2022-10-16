@@ -1,0 +1,15 @@
+.flexs {
+    display: flex;
+    
+}
+
+.boxes{
+    padding: 30px;
+    border: 1px solid purple;
+    background-color: azure;
+    margin: 30px;
+}
+
+@media (max-width: 750px){
+    flex-direction:column;
+}

@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="contact_style.css">
+    <title>Contact</title>
 </head>
 <body>
     
     <h1>This is just table dont mind it</h1>
-    <table border="1">
+    <table border="1" class="table_1">
         <tr>
           <th>ncjenvoenvo</th>
           <th>nn voemvoemvoemv</th>
@@ -30,15 +31,16 @@
     <br>
     <p><a href="mailto:mibrahimli14007@ada.edu.az">Send email</a></p>
 
-    <table>
-      <tr>
-        <th><img src="xxx.jpeg" width="479" height="640" alt="seklim"></th>
-        <th>My Name is Murad Ibrahimli and currently I am studying computer science at
-          ADA University and I am expected to graduate at the year of 2024.</th>
-      </tr>
-    </table>
+    <div class="contact_bio">
+      <img src="xxx.jpeg" width="479" height="640" alt="seklim" class="contact_img">
+      <p class="contact_p">My Name is Murad Ibrahimli and currently I am studying computer science at
+          ADA University and I am expected to graduate at the year of 2024.</p>
+    </div>
+  
+    
     <br>
     <br>
+    
     <h1>Skills</h1>
     <ul>
       <li>HTML ⭐⭐⭐⭐⭐</li>
@@ -48,9 +50,12 @@
     <br>
     <br>
 
+    <h1>Please fill the form to contact me</h1>
+
     <form>
-      Subject: <br>
-      <input type="text" name="" placeholder="subject">
+      <input type="text" name="Name" placeholder="Name">
+      <input type="text" name="Surname" placeholder="Surname">
+      <input type="text" name="Text" placeholder="Text">
     </form>
 
 
